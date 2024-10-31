@@ -1,0 +1,358 @@
+h1.page-title {
+    font-weight: bold;
+}
+h1.page-title span {
+    font-size: 28px;
+    margin-right: 5px;
+}
+a.main-btn {
+    display: inline-block;
+    background: #2271b1;
+    padding: 20px 40px;
+    border-radius: 8px;
+    color: #fff;
+    text-decoration: unset;
+    font-size: 14px;
+}
+.wrap ul {
+    margin: unset;
+}
+.wptheme-check .navtabs {
+  display: flex;
+  justify-content: left;
+  margin-top: 20px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  padding: 12px 20px;
+  position: relative;
+  font-size: 14px;
+}
+.wptheme-check .navtab {
+  margin: 0 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #333;
+  transition: color 0.3s;
+}
+.wptheme-check .navtab:hover {
+  color: #007BFF;
+}
+.wptheme-check .navtab.active {
+  color: #007BFF;
+  font-weight: 600;
+}
+.wptheme-check .underline {
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  background: #007BFF;
+  transition: left 0.3s ease, width 0.3s ease;
+}
+.wptheme-check .content {
+  display: none;
+}
+.wptheme-check .content.active {
+  display: block;
+}
+.wptheme-check .content h2 {
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.wptheme-check .content h3 {
+    position: relative;
+    cursor: pointer;
+}
+.wptheme-check .content h3 span.dashicons-arrow-down-alt2{
+    position: absolute;
+    right: 10px;
+    font-size: 24px;
+}
+.wptheme-check .content h3 span.dashicons-arrow-up-alt2{
+    position: absolute;
+    right: 10px;
+    font-size: 24px;
+}
+.wptheme-check .footer {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 14px;
+  color: #000;
+  transition: color 0.3s ease;
+}
+
+.wptheme-check .footer a {
+  background: linear-gradient(145deg, #007aff, #005bb5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.wptheme-check .footer a:hover {
+  color: linear-gradient(145deg, #007aff, #005bb5);
+}
+
+/*Dashboard design*/
+.wptheme-check .home .dashboard-section {
+    //display: flex;
+    margin-top: 20px;
+}
+.wptheme-check .dashboard-main{
+    display: flex;
+}
+.wptheme-check .dashboard-section{
+    width: 40%;
+}
+.wptheme-check .refresh-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.dashboard-section a.refresh_agin {
+    display: inline-block;
+    background: #2271b1;
+    padding: 20px 40px;
+    border-radius: 8px;
+    color: #fff;
+    text-decoration: unset;
+    font-size: 14px;
+}
+.wptheme-check .dashboard-section .milestone {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+.m-part-1,
+.m-part-2 {
+    width: 50%;
+}
+canvas#myChart {
+    padding: 20px 0px 20px 0px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #2271b1;
+}
+.milestone-data {
+    width: 33.33%;
+    padding: 30px;
+    background: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.milestone-data.errors {
+    background: #fde0e0;
+    border: 1px solid #e30202;
+}
+.milestone-data.warning {
+    background: #f1e1c2;
+    border: 1px solid #f2a71b;
+}
+.milestone-data.suggestions {
+    background: #cdd8f3;
+    border: 1px solid #023fd9;
+}
+.milestone-data.codesniffer {
+    background: #e4e9f1;
+    border: 1px solid #626a78;
+}
+.milestone h3 {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: unset;
+}
+.milestone span.data-count {
+    font-size: 38px;
+    font-weight: bold;
+}
+.wptheme-check-documentation {
+    padding: 110px 30px;
+    text-align: center;
+    border-radius: 8px;
+    background: #2271b1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.wptheme-check-documentation span.dashicons.dashicons-book {
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    font-size: 35px;
+}
+.wptheme-check-documentation h3 {
+    color: #fff;
+    font-size: 22px;
+}
+.wptheme-check-documentation p {
+    color: #fff;
+    font-size: 16px;
+}
+.wptheme-check-documentation a.read-docu {
+    color: #2271b1;
+    font-size: 16px;
+    display: inline-block;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    text-decoration: unset;
+}
+
+
+.wptheme-check .dashboard-right {
+    width: 60%;
+    margin-left: 20px;
+}
+.wptheme-check .div-flex {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+.dashboard-right .security-grade {
+    text-align: center;
+    padding: 30px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.dashboard-right .security-grade h2 {
+    font-size: 72px;
+    font-weight: 900;
+}
+.dashboard-right .security-grade h2.a-grade {
+    color: #016e29;
+}
+.dashboard-right .security-grade h2.b-grade {
+    color: #b8d153;
+}
+.dashboard-right .security-grade h2.c-grade {
+    color: #f2a71b;
+}
+.dashboard-right .security-grade h2.d-grade {
+    color: #f24d1b;
+}
+.dashboard-right .security-grade p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    display: inline-block;
+}
+.dashboard-right .new-scan {
+    padding: 23px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+.dashboard-right a.refresh_agin {
+    display: inline-block;
+    background: #2271b1;
+    padding: 20px 40px;
+    border-radius: 8px;
+    color: #fff;
+    text-decoration: unset;
+    font-size: 14px;
+}
+.pro-options {
+    background: #fff;
+    padding: 23px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.pro-options h3 {
+    margin: unset;
+}
+
+.wptheme-check .scan-history {
+    background: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/*Error tab design*/
+.wptheme-check .error-section .error-info {
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #e30202;
+}
+.wptheme-check .error-section span.dashicons.dashicons-dismiss {
+    color: #e30202;
+}
+.wptheme-check .error-section ul li {
+    margin-bottom: 5px;
+    padding: 8px;
+}
+span.error-lbl {
+    padding: 8px;
+    background: #e30202;
+    border-radius: 8px;
+    color: #fff;
+    margin-right: 5px;
+    font-weight: 500;
+}
+
+
+
+/*Warning tab design*/
+.warning-section .warning-info {
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #f2a71b;
+}
+.warning-section span.dashicons.dashicons-warning {
+    color: #f2a71b;
+}
+.warning-section ul li {
+    margin-bottom: 5px;
+    padding: 8px;
+}
+span.warning-lbl {
+    padding: 8px;
+    background: #f2a71b;
+    border-radius: 8px;
+    color: #fff;
+    margin-right: 5px;
+    font-weight: 500;
+}
+
+/*suggestion tab design*/
+.suggestion-section .suggestion-info {
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #023fd9;
+}
+.suggestion-section span.dashicons.dashicons-info {
+    color: #023fd9;
+}
+.suggestion-section ul li {
+    margin-bottom: 5px;
+    padding: 8px;
+}
+span.suggestions-lbl {
+    padding: 8px;
+    background: #023fd9;
+    border-radius: 8px;
+    color: #fff;
+    margin-right: 5px;
+    font-weight: 500;
+}
+
+p.no-result {
+    background: #e8f1f9;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 14px;
+    border: 1px solid #0069c7;
+}
